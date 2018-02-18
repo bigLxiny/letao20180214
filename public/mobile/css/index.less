@@ -1,0 +1,114 @@
+.jq_container {
+    height: 100%;
+    position: relative;
+    background-color: #f5e2ca;
+    /* 轮播图 */
+    .jq_carousel {
+        a {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .jq_nav {
+        a {
+            float: left;
+            width: 33.33%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .jq_adv {
+        border-top: 3px solid #ccc;
+        >a:nth-child(1) {
+            float: left;
+            width: 67%;
+            img {
+                float: left;
+                width: 50%;
+            }
+        }
+        a:nth-child(2) {
+            float: right;
+            width: 33%;
+            img {
+                width: 100%;
+            }
+        }
+        a:nth-child(3) {
+            float: left;
+            width: 67%;
+            img {
+                float: left;
+                width: 50%;
+            }
+        }
+    }
+    .jq_goodsList {
+        .jq_brand {
+            img {
+                width: 100%;
+            }
+            ul {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                li {
+                    float: left;
+                    width: 25%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .jq_sport {
+            >img {
+                width: 100%;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                background-color: #fff;
+                li {
+                    float: left;
+                    width: 50%;
+                    padding: 2px;
+                    text-align: center;
+                    .jq_item {
+                        border: 1px solid #ccc;
+                        padding: 1px 5px 10px;
+                        >img {
+                            display: block;
+                            width: 100%;
+                        }
+                        >.product_info {
+                            font-size: 14px;
+                            color: #666;
+                            height: 40px;
+                            overflow: hidden;
+                        }
+                        >p {
+                            .new_price {
+                                color: red;
+                            }
+                            .old_price {
+                                color: #666;
+                                text-decoration: line-through;
+                            }
+                        }
+                        >a {
+                            background-color: #bb7063;
+                            color: #fff;
+                            padding: 8px 12px;
+                            font-size: 14px;
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

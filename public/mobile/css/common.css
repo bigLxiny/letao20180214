@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+img {
+  display: block;
+}
+.jq_header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #bb7063;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  z-index: 100;
+}
+.jq_header .jq_title {
+  position: relative;
+}
+.jq_header .jq_title .jq_header_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+}
+.jq_header .jq_title .jq_header_left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+/*# sourceMappingURL=./common.css.map */
